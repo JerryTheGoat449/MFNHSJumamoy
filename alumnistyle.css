@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #f57f17; /* Dark yellow */
+    color: white;
+    padding: 15px 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+footer {
+    background-color: #f57f17; /* Dark yellow */
+    color: white;
+    padding: 15px 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* nav bar links */
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    color: #f57f17; /* Dark yellow */
+    background-color: #fbc02d; /* Lighter yellow on hover */
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffcc00; /* Light Yellow for the Menu Icon */
+}
+
+section {
+    background-color: #fff3d4; /* Light Yellow Background */
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section .section-content h1 {
+    color: black;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section .section-content h2 {
+    color: #6d6d6d; /* Darker Gray for Subheadings */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section img {
+    height: 600px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downloadable-forms h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#daf {
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border: 1px solid #f8b400; /* Dark Yellow Border */
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.downloadable-forms a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+footer {
+    background: #f57f17; /* Dark yellow */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.footer-col h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 2px 0;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col ul li a:hover {
+    color: #fbc02d; /* Lighter yellow on hover */
+}
+
+.footer-col form {
+    margin-top: 10px;
+}
+
+.footer-col input {
+    padding: 5px;
+    border: none;
+}
+
+.footer-col button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fbc02d; /* Lighter yellow */
+    color: white;
+    cursor: pointer;
+}
+
+.footer-col button:hover {
+    background: #f57f17; /* Dark yellow on hover */
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+}
